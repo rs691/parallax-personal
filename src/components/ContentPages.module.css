@@ -1,19 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wdth,wght@0,50..150,100..900;1,50..150,100..900&display=swap");
-img{
-    display: block;
-    text-decoration: none;
-    color: #F44250;
-    width: 20%;
-}
-.background{
-    background: linear-gradient(90deg, #001F3F 3%, #3992FF  50%, #001F3F 95%);
-    min-height: 100vh;
-    text-shadow: #000000 2px 2px 4px;
+
+
+.education{
     display: flex;
+    gap: 20px;
+    flex-direction: row;
     justify-content: center;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    text-align: center;
     font-family: 'Anybody', sans-serif;
-    color: #F44250;
+   
+    font-size: 50px;
     text-shadow: 3px 3px 5px #000000;
 }
+
+
+
+
+
