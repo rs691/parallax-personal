@@ -10,7 +10,7 @@
     flex-direction: column;
     margin-top: 100px;
     margin-bottom: 100px;
-    
+    padding-top: 100px;
     text-align: center;
     font-family: 'Anybody', sans-serif;
    
@@ -18,7 +18,23 @@
     text-shadow: 3px 3px 5px #000000;
 }
 
-
-
-
-
+.education h1{
+    font-size: 170px;
+    font-weight: 600;
+    
+    
+    font-family: "Anybody", sans-serif;
+    font-variation-settings: "wdth" 64.16, "slnt" 0, "wght" 490;
+    line-height: 0.83em;
+    text-align: center;
+    text-shadow: 3px 3px 5px #000000;  
+}
+.heading h1{
+    font-size: 170px;
+    font-weight: 600;
+    color:#F44250;
+    font-family: "Anybody", sans-serif;
+    font-variation-settings: "wdth" 64.16, "slnt" 0, "wght" 490;
+    line-height: 0.83em;
+    text-align: center;  
+}

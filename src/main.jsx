@@ -8,6 +8,7 @@ import Education from './components/Education.jsx'
 import Projects from './components/Projects.jsx'
 import Project1 from './components/Project1.jsx'
 import Project2 from './components/Project2.jsx'
+import Other from './components/Other.jsx'
 
 
 
@@ -23,6 +24,10 @@ const router = createHashRouter([
       {
         path: 'contact',
         element: <Contact />,
+      },
+      {
+        path: 'other',
+        element: <Other />,
       },
       {
         path: 'projects',

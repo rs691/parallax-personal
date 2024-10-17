@@ -6,14 +6,13 @@ import horizontal from '../assets/horizontal.png';
 
 function Education() {
   return (
-    <div>
+    <>
+    <div className={styles.heading}>
+
+      <h1>Education</h1>
+      </div>
     <div className={styles.education}>
 
-<h1>Education</h1>
-
-     
-
-      
       
           <img src={logo} className="logo" alt="pirate logo" />
        
@@ -21,7 +20,7 @@ function Education() {
           <img src={horizontal} className="belle" alt="bellevue logo" />
    
     </div>
-    </div>
+    </>
   );
 }
 export default Education;

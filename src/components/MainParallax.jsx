@@ -24,12 +24,42 @@ const MainParallax = () => {
     // useMemo is used to prevent re-creating the sections array on every render
     const sections = useMemo(() => [
       { offset: 1.3, speed: 1, content: 'Education', link: '/education' },
-      { offset: 3.5, speed: 1.5, content: 'Projects', link: '/projects' },
-      { offset: 5, speed: 1.8, content: 'Contact', link: '/contact' },
+      { offset: 3.2, speed: 1.4, content: 'Projects', link: '/projects' },
+      { offset: 5.0, speed: 1.4, content: 'Contact', link: '/contact' },
+      { offset: 7.0, speed: 2.0, content: 'Other', link: '/other' }
     ], []);
+
+
+
+const handleBack = (e) => {
+    e.preventDefault();
+    setIsReturning(true);
+
+    if(parallaxRef.current) {
+      parallaxRef.current.scrollTo(lastParallaxPosition || 0);
+    }
+
+    navigate('/');
+  };
+
+
+
+
+  // Set the last scroll position before navigating to a section
+  const handleSectionClick = (link) => {
+    if (parallaxRef.current) {
+      setLastParallaxPosition(parallaxRef.current.current);
+      setLastVisitedSection(link);
+    }
+    navigate(link);
+  };
+
+
+
 
     useEffect(() => {
         if (parallaxRef.current) {
+          setTimeout(() => {
           if (isHomePage && lastVisitedSection) {
             // Determine the initial scroll position based on the last visited section
             const initialScrollPosition = sections.find(section => section.link === lastVisitedSection)?.offset || 0;
@@ -38,31 +68,18 @@ const MainParallax = () => {
             parallaxRef.current.scrollTo(lastParallaxPosition);
             setIsReturning(false);
           }
-        }
+        }, 100);
+      }
       }, [isHomePage, isReturning, lastParallaxPosition, lastVisitedSection, sections]);
   
-      const handleSectionClick = (link) => {
-        if (parallaxRef.current) {
-          const currentPosition = parallaxRef.current.current;
-          setLastParallaxPosition(currentPosition);
-          setLastVisitedSection(link); // Store the current section
-        }
-        navigate(link);
-      };
-  
-    // Custom back button handler
-    const handleBack = (e) => {
-      e.preventDefault();
-      setIsReturning(true);
-      navigate('/');
-    };
+
   
     return (
       <div>
         <div className={styles.background} />
         {isHomePage ? (
           <>
-            <Parallax pages={8} ref={parallaxRef}>
+            <Parallax pages={10} ref={parallaxRef}>
               <ParallaxLayer
                 offset={0}
                 speed={0.3}
@@ -105,8 +122,19 @@ const MainParallax = () => {
                   
                 </div>
               </ParallaxLayer>
+
               <ParallaxLayer
                 sticky={{ start: 7, end: 8 }}
+                style={{ ...alignCenter, justifyContent: "flex-start", zIndex: -1 }}
+              >
+                <div className={`${styles.stickyText} ${styles.sticky}`}>
+                  <h5>Other.</h5>
+                  
+                </div>
+              </ParallaxLayer>
+
+              <ParallaxLayer
+                sticky={{ start: 9, end: 10 }}
                 style={{ ...alignCenter, justifyContent: "center", zIndex: -1 }}
               >
                <div className={styles.lastPage}>
@@ -154,7 +182,7 @@ const MainParallax = () => {
                 position: 'fixed',
                 top: '30px',
                 left: '30px',
-                background: 'green',
+                background: 'white',
                 border: 'none',
                 borderRadius: '50%',
                 padding: '10px',
