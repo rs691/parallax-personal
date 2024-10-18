@@ -12,14 +12,9 @@ function Education() {
       <h1>Education</h1>
       </div>
     <div className={styles.education}>
-
-      
-          <img src={logo} className="logo" alt="pirate logo" />
-       
-      
-          <img src={horizontal} className="belle" alt="bellevue logo" />
-   
     </div>
+    <img src={logo} className="img-thumbnail " alt="pirate logo" />
+    <img src={horizontal} className="img-thumbnail" alt="bellevue logo" />
     </>
   );
 }

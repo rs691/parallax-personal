@@ -1,10 +1,10 @@
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css'; // Import external CSS for styling';
-import PdfModal from './PdfModal';
+
 
 const Contact = () => {
-  const pdfUrl = 'https://www.example.com/sample.pdf'; // Replace with your PDF URL
+  
   const form = useRef();
   const [successMessage, setSuccessMessage] = useState('');
   const [loading, setLoading] = useState(false);
@@ -72,7 +72,7 @@ const Contact = () => {
 
 
       <h1>PDF Modal Example</h1>
-<PdfModal pdfUrl={pdfUrl} />
+
     </div>
   );
 };

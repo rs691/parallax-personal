@@ -36,15 +36,7 @@ line-height: 0.83em;
 text-align: center;  
 }
 
-.firstPage h2{
- font-size: 170px;
-  font-weight: 700;
-text-align: left;
-padding: 0;
-color: black;
-  font-family: "Anybody", sans-serif;
-  margin: 0;
-}
+
 
 
 
@@ -151,17 +143,6 @@ p {
   text-align: center;
   width: 60%;
 }
-
-.stickyText h5{
-  font-size: 170px;
-  color: black;
-  font-family: "Anybody", sans-serif;
-  font-variation-settings: "wdth" 64.16, "slnt" 0, "wght" 490;
-  line-height: 0.83em;
-  text-align: center;
-  width: 80%;
-}
-
 
 
 
@@ -276,7 +257,7 @@ line-height: 0.83em;
 
 /* Responsive adjustments using Bootstrap classes */
 @media (max-width: 480px) {
-  .stickyText h1, .stickyText h2, .scrollText h1, .stickyText h4, .content {
+  .stickyText h1, .stickyText h2, .scrollText h1, .stickyText h4, .content, .firstPage, .lastPage {
     font-size: 2rem;
   }
 
@@ -293,6 +274,12 @@ line-height: 0.83em;
     font-variation-settings: "wdth" 64.16, "slnt" 0, "wght" 490;
     line-height: 0.83em;
     text-align: center;  
+  }
+
+  .firstPage h1{
+    margin: 10px;
+    text-align: center;
+   
   }
 
 

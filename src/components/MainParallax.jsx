@@ -86,8 +86,8 @@ const handleBack = (e) => {
                 style={{ ...alignCenter, justifyContent: "center" }}
               >
                 <div className={styles.firstPage}>
-                  <h1>This is a story about a software
-                     developer named Robert Stewart</h1>
+                  <h1>This is a short story about a software
+                     developer named Rob</h1>
                   </div>
 
               </ParallaxLayer>
@@ -118,7 +118,7 @@ const handleBack = (e) => {
                 style={{ ...alignCenter, justifyContent: "flex-start", zIndex: -1 }}
               >
                 <div className={`${styles.stickyText} ${styles.sticky}`}>
-                  <h5>heres how to contact me.</h5>
+                  <h1>heres how to contact me.</h1>
                   
                 </div>
               </ParallaxLayer>
@@ -128,7 +128,7 @@ const handleBack = (e) => {
                 style={{ ...alignCenter, justifyContent: "flex-start", zIndex: -1 }}
               >
                 <div className={`${styles.stickyText} ${styles.sticky}`}>
-                  <h5>Other.</h5>
+                  <h1>Other.</h1>
                   
                 </div>
               </ParallaxLayer>
