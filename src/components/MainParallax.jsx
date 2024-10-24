@@ -85,7 +85,7 @@ const handleBack = (e) => {
                 speed={0.3}
                 style={{ ...alignCenter, justifyContent: "center" }}
               >
-                <div className={styles.firstPage}>
+                <div className={styles.stickyText}>
                   <h1>This is a short story about a software
                      developer named Rob</h1>
                   </div>
@@ -96,7 +96,7 @@ const handleBack = (e) => {
                 sticky={{ start: 1, end: 2 }}
                 style={{ ...alignCenter, justifyContent: "flex-start", zIndex: -1 }}
               >
-                <div className={`${styles.stickyText} ${styles.sticky}`}>
+                <div className={`${styles.stickyText}`}>
                   <h1>heres a little about my education</h1>
                 </div>
                
@@ -137,7 +137,7 @@ const handleBack = (e) => {
                 sticky={{ start: 9, end: 10 }}
                 style={{ ...alignCenter, justifyContent: "center", zIndex: -1 }}
               >
-               <div className={styles.lastPage}>
+               <div className={styles.stickyText}>
                   <h1>the end.....</h1>
     
                 </div>

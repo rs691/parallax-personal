@@ -1,0 +1,44 @@
+<svg width="3151" height="1171" viewBox="0 0 3151 1171" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_13589)">
+<rect width="3151" height="1171" fill="white"/>
+<rect width="2560" height="1219.33" transform="translate(101 -73)" fill="url(#paint0_linear_1_13589)"/>
+<rect width="2560" height="1219.33" transform="translate(101 -73)" fill="url(#paint1_linear_1_13589)"/>
+<rect width="3151" height="1171.33" fill="#050505"/>
+<line x1="1072.63" y1="0.999461" x2="1073.63" y2="1171" stroke="#222020" stroke-width="1.2607"/>
+<line x1="1545.63" y1="-2.75534e-08" x2="1545.63" y2="1171" stroke="#222020" stroke-width="1.2607"/>
+<line x1="1384.63" y1="-2.75534e-08" x2="1384.63" y2="1171" stroke="#222020" stroke-width="1.2607"/>
+<line x1="1467.63" y1="-2.75534e-08" x2="1467.63" y2="1171" stroke="#222020" stroke-width="1.2607"/>
+<line x1="1304.63" y1="-2.75534e-08" x2="1304.63" y2="1171" stroke="#222020" stroke-width="1.2607"/>
+<line y1="-0.630349" x2="1171" y2="-0.630349" transform="matrix(1.87338e-09 1 -1 1.01992e-06 1148 1)" stroke="#222020" stroke-width="1.2607"/>
+<path d="M1224.63 -0.500214L1224.63 1167.5" stroke="#222020" stroke-width="1.2607"/>
+<path d="M993 7L993 1172" stroke="#222020" stroke-width="1.2607"/>
+<path d="M993 7L993 1172" stroke="#222020" stroke-width="1.2607"/>
+<path d="M993 7L993 1172" stroke="#222020" stroke-width="1.2607"/>
+<line x1="519.63" y1="-2.00054" x2="520.63" y2="1168" stroke="#222020" stroke-width="1.2607"/>
+<line x1="415.63" y1="1" x2="415.63" y2="1172" stroke="#222020" stroke-width="1.2607"/>
+<line x1="797.63" y1="1" x2="797.63" y2="1172" stroke="#222020" stroke-width="1.2607"/>
+<line x1="900.63" y1="-2" x2="900.63" y2="1169" stroke="#222020" stroke-width="1.2607"/>
+<line x1="701.63" y1="1" x2="701.63" y2="1172" stroke="#222020" stroke-width="1.2607"/>
+<line y1="-0.630349" x2="1171" y2="-0.630349" transform="matrix(1.87338e-09 1 -1 1.01992e-06 608 -2)" stroke="#222020" stroke-width="1.2607"/>
+<line x1="155.63" y1="-3.00054" x2="156.63" y2="1167" stroke="#222020" stroke-width="1.2607"/>
+<line x1="237.63" y1="1" x2="237.63" y2="1172" stroke="#222020" stroke-width="1.2607"/>
+<line x1="325.63" y1="1" x2="325.63" y2="1172" stroke="#222020" stroke-width="1.2607"/>
+<line x1="69.6303" y1="-3" x2="69.6304" y2="1168" stroke="#222020" stroke-width="1.2607"/>
+<line x1="415.63" y1="1" x2="415.63" y2="1171" stroke="#222020" stroke-width="1.2607"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_13589" x1="1280" y1="0" x2="1280" y2="1219.33" gradientUnits="userSpaceOnUse">
+<stop offset="0.0166667" stop-color="#F2F2F2" stop-opacity="0.15"/>
+<stop offset="0.0166667" stop-opacity="0"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1_13589" x1="0" y1="609.665" x2="2560" y2="609.665" gradientUnits="userSpaceOnUse">
+<stop offset="0.0166667" stop-color="#F2F2F2" stop-opacity="0.15"/>
+<stop offset="0.0166667" stop-opacity="0"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_1_13589">
+<rect width="3151" height="1171" fill="white"/>
+</clipPath>
+</defs>
+</svg>
